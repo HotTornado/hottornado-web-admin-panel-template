@@ -8,10 +8,10 @@
 
 <body>
     <div class="row m-0 p-0">
-        <div class="col-xxl-3 col-xl-3 col-lg-4 d-lg-block d-none m-0 p-0">
+        <div class="col-xxl-2 col-xl-3 col-lg-4 d-lg-block d-none m-0 p-0">
             <?php include "components/partials/main-sidebar.php";?>
         </div>
-        <div class="col-xxl-9 col-xl-9 col-lg-8 col-12 m-0 p-0">
+        <div class="col-xxl-10 col-xl-9 col-lg-8 col-12 m-0 p-0">
             <?php include "components/partials/main-header.php";?>
             <?php include "components/partials/dashboard.php";?>
         </div>
