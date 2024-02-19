@@ -13,4 +13,4 @@
 <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.css">
 <link rel="stylesheet" href="node_modules/summernote/dist/summernote-bs5.css">
 <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert.css">
-<link rel="shortcut icon" href="assets/images/HotTornadoLogoTransparentWhiteCropped.png" type="image/x-icon">
+<link rel="website icon" href="assets/icons/HotTornadoLogoIconBlack.ico">
