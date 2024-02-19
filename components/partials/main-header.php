@@ -7,8 +7,7 @@
         </a>
 
         <div class="dropdown ms-auto">
-            <a class="btn dropdown-toggle text-decoration-none text-dark d-flex align-items-center gap-1"
-                style="border-color: transparent;" href="#" role="button" data-bs-toggle="dropdown"
+            <a class="btn dropdown-toggle text-decoration-none text-dark d-flex align-items-center gap-1" style="border-color: transparent;" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <span class="material-symbols-rounded">
                     account_circle
