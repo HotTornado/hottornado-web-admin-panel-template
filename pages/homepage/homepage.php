@@ -25,10 +25,10 @@
         var edit = $("#edit");
         edit.click(function () {
             Swal.fire({
-                title: 'Error!',
-                text: 'Do you want to continue',
-                icon: 'error',
-                confirmButtonText: 'Cool'
+                title: 'Success!',
+                text: 'Congrats!',
+                icon: 'success',
+                confirmButtonText: 'Ok'
             })
         });
     </script>
