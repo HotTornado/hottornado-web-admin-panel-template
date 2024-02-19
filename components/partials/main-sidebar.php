@@ -1,5 +1,18 @@
+<?php
+    $space = "";
+    $path = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; 
+    $current = explode('/', $path);
+    // echo "<pre>";
+    // print_r($current);
+    // echo "</pre>";
+    if (isset($current[3])) {
+        $space = "../../";
+    } else {
+        $space = "";
+    }
+?>
 <div class="container-fluid py-3 d-flex justify-content-center align-items-center">
-    <img src="assets/images/HotTornadoLogoTransparentBlackCropped.png" alt="" height="75" class="">
+    <img src="<?=$space?>assets/images/HotTornadoLogoTransparentBlackCropped.png" alt="" height="75" class="">
 </div>
 <!-- <hr class="p-0 m-0"> -->
 <div class="container-fluid py-3 px-0 mx-auto">
@@ -8,12 +21,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#C1" aria-expanded="true" aria-controls="C1">
-                    Accordion Item #1
+                    Homepage
                 </button>
             </h2>
             <div id="C1" class="accordion-collapse collapse show">
                 <div class="accordion-body">
-                    
+                    <a href="<?=$space?>pages/homepage/homepage.php">Homepage</a>
                 </div>
             </div>
         </div>
