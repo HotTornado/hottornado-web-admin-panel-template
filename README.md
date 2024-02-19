@@ -96,37 +96,59 @@ WebsiteTemplate
 
 ────────────────────────────────────────────────────────────────────────
 
-DOCS
-│
-├───@fancybox
-│   └───https://fancyapps.com/fancybox/
-│   
-├───@popperjs
-│   └───https://popper.js.org/
-│   
-├───tabler-icons
-│   └───https://tabler.io/icons
-│   
-├───animate.css
-│   └───https://animate.style/
-│   
-├───bootstrap
-│   └───https://getbootstrap.com/docs/5.3/getting-started/introduction/
-│   
-├───jquery
-│   └───https://api.jquery.com/
-│   
-├───jquery-ui
-│   └───https://jqueryui.com/demos/
-│   
-├───material-icons
-│   └───https://github.com/marella/material-symbols/tree/main/material-symbols#readme
-│   
-├───owl-carousel
-│   └───https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html
-│   
-├───summernote
-│   └───https://summernote.org/examples/   
-│
-└───sweetalert2
-    └───https://sweetalert2.github.io/
+<hr>
+<h2>Used Extension and DOCS Links</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <td>Extension Name</td>
+            <td>Documents</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@fancybox</td>
+            <td>https://fancyapps.com/fancybox/</td>
+        </tr>
+        <tr>
+            <td>@popperjs</td>
+            <td>https://popper.js.org/</td>
+        </tr>
+        <tr>
+            <td>tabler-icons</td>
+            <td>https://tabler.io/icons</td>
+        </tr>
+        <tr>
+            <td>animate.css</td>
+            <td>https://animate.style/</td>
+        </tr>
+        <tr>
+            <td>bootstrap</td>
+            <td>https://getbootstrap.com/docs/5.3/getting-started/introduction/</td>
+        </tr>
+        <tr>
+            <td>jquery</td>
+            <td>https://api.jquery.com/</td>
+        </tr>
+        <tr>
+            <td>jquery-ui</td>
+            <td>https://jqueryui.com/demos/</td>
+        </tr>
+        <tr>
+            <td>material-icons</td>
+            <td>https://github.com/marella/material-symbols/tree/main/material-symbols#readme</td>
+        </tr>
+        <tr>
+            <td>owl-carousel</td>
+            <td>https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html</td>
+        </tr>
+        <tr>
+            <td>summernote</td>
+            <td>https://summernote.org/examples/</td>
+        </tr>
+        <tr>
+            <td>sweetalert2</td>
+            <td>https://sweetalert2.github.io/</td>
+        </tr>
+    </tbody>
+</table>
