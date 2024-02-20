@@ -1,6 +1,7 @@
 <h1>HotTornado Web/Admin Panel Template</h1>
 <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel qui illum inventore veritatis aperiam, sunt consectetur neque dolor fugit voluptatum, eius maiores sed! Nulla delectus ab dolorem sapiente laboriosam placeat.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel qui illum inventore veritatis aperiam, sunt consectetur
+    neque dolor fugit voluptatum, eius maiores sed! Nulla delectus ab dolorem sapiente laboriosam placeat.
 </p>
 <hr>
 <h2>File Hierarchy</h2>
@@ -8,70 +9,72 @@
 <ul>
     <li>
         WebsiteTemplate
-<ul>
-    <li>
-        admin
-    </li>
-
-    <li>
-        assets
-        <ul>
-            <li>icons</li>
-            <li>images</li>
-        </ul>
-    </li>
-
-    <li>
-        components
         <ul>
             <li>
-                apis
+                admin
+            </li>
+
+            <li>
+                assets
                 <ul>
-                    <li>PHPMailer</li>
+                    <li>icons</li>
+                    <li>images</li>
                 </ul>
             </li>
+
             <li>
-                partials
-                <ul>
-                    <li>main-head.php</li>
-                    <li>main-js.php</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        css
-        <ul>
-            <li>material-icons.css</li>
-            <li>style.css</li>
-            <li>theme.css</li>
-        </ul>
-    </li>
-
-    <li>
-        js
-        <ul>
-            <li>script.js</li>
-            <li>owl-carousel.js</li>
-            <li>summernote.js</li>
-        </ul>
-    </li>
-
-    <li>
-        node_modules
-        <ul>
-            <li>
-                @fancyapps
+                components
                 <ul>
                     <li>
-                        fancybox
+                        apis
+                        <ul>
+                            <li>PHPMailer</li>
+                        </ul>
+                    </li>
+                    <li>
+                        partials
+                        <ul>
+                            <li>main-head.php</li>
+                            <li>main-js.php</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                css
+                <ul>
+                    <li>material-icons.css</li>
+                    <li>style.css</li>
+                    <li>theme.css</li>
+                </ul>
+            </li>
+
+            <li>
+                js
+                <ul>
+                    <li>script.js</li>
+                    <li>owl-carousel.js</li>
+                    <li>summernote.js</li>
+                </ul>
+            </li>
+
+            <li>
+                node_modules
+                <ul>
+                    <li>
+                        @fancyapps
                         <ul>
                             <li>
-                                dist
+                                fancybox
                                 <ul>
-                                    <li>jquery.fancybox.css</li>
-                                    <li>jquery.fancybox.js</li>
+                                    <li>
+                                        dist
+                                        <ul>
+                                            <li>jquery.fancybox.css</li>
+                                            <li>jquery.fancybox.js</li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -81,68 +84,66 @@
         </ul>
     </li>
 </ul>
-</li>
-</ul>
-   
-│   ├───@popperjs
-│   │   └───core
-│   │       └───dist
-│   │           └───umd
-│   │               └───popper.js
-│   ├───@tabler
-│   │   ├───icons
-│   │   │   └───dist
-│   │   │       └───umd
-│   │   │           └───tabler-icons.js
-│   │   │
-│   │   └───icons-webfont
-│   │       └───tabler-icons.css
-│   │
-│   ├───animate.css
-│   │   └───animate.css
-│   │
-│   ├───bootstrap
-│   │   └───dist
-│   │       ├───css
-│   │       │   └───bootstrap.css
-│   │       └───js
-│   │           └───bootstrap.js
-│   │
-│   ├───jquery
-│   │   └───dist
-│   │       └───jquery.js
-│   │
-│   ├───jquery-ui
-│   │   └───dist
-│   │       ├───jquery-ui.js
-│   │       └───themes
-│   │           └───base
-│   │               └───jquery-ui.css
-│   │
-│   ├───material-symbols
-│   │   └───index.css
-│   │
-│   ├───owl-carousel
-│   │   └───dist
-│   │       ├───owl.carousel.js
-│   │       └───assets
-│   │           ├───owl.carousel.css
-│   │           └───owl.theme.default.css
-│   │
-│   ├───summernote
-│   │   └───dist
-│   │       ├───summernote-bs5.css
-│   │       └───summernote-bs5.js
-│   │
-│   └───sweetalert2
-│       └───dist
-│           ├───sweetalert2.css
-│           └───sweetalert2.js
+
+│ ├───@popperjs
+│ │ └───core
+│ │ └───dist
+│ │ └───umd
+│ │ └───popper.js
+│ ├───@tabler
+│ │ ├───icons
+│ │ │ └───dist
+│ │ │ └───umd
+│ │ │ └───tabler-icons.js
+│ │ │
+│ │ └───icons-webfont
+│ │ └───tabler-icons.css
+│ │
+│ ├───animate.css
+│ │ └───animate.css
+│ │
+│ ├───bootstrap
+│ │ └───dist
+│ │ ├───css
+│ │ │ └───bootstrap.css
+│ │ └───js
+│ │ └───bootstrap.js
+│ │
+│ ├───jquery
+│ │ └───dist
+│ │ └───jquery.js
+│ │
+│ ├───jquery-ui
+│ │ └───dist
+│ │ ├───jquery-ui.js
+│ │ └───themes
+│ │ └───base
+│ │ └───jquery-ui.css
+│ │
+│ ├───material-symbols
+│ │ └───index.css
+│ │
+│ ├───owl-carousel
+│ │ └───dist
+│ │ ├───owl.carousel.js
+│ │ └───assets
+│ │ ├───owl.carousel.css
+│ │ └───owl.theme.default.css
+│ │
+│ ├───summernote
+│ │ └───dist
+│ │ ├───summernote-bs5.css
+│ │ └───summernote-bs5.js
+│ │
+│ └───sweetalert2
+│ └───dist
+│ ├───sweetalert2.css
+│ └───sweetalert2.js
 │
 └───scss
-    ├───material-icons.scss
-    ├───style.scss
-    └───theme.scss
+├───material-icons.scss
+├───style.scss
+└───theme.scss
 
 <hr>
 <h2>Used Extension and DOCS Links</h2>
