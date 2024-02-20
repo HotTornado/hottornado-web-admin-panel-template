@@ -46,19 +46,14 @@
                     <li>theme.css</li>
                 </ul>
             </li>
-
-    <li>
-        js
-        <ul>
-            <li>script.js</li>
-            <li>owl-carousel.js</li>
-            <li>summernote.js</li>
-        </ul>
-    </li>
-
-    <li>
-        node_modules
-        <ul>
+            <li>
+                js
+                <ul>
+                    <li>script.js</li>
+                    <li>owl-carousel.js</li>
+                    <li>summernote.js</li>
+                </ul>
+            </li>
             <li>
                 @fancyapps
                 <ul>
