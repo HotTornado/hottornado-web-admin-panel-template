@@ -4,7 +4,7 @@
 </p>
 <hr>
 <h2>File Hierarchy</h2>
-
+<code>
 <ul>
     <li>
         WebsiteTemplate
@@ -83,6 +83,7 @@
 </ul>
 </li>
 </ul>
+</code>
    
 │   ├───@popperjs
 │   │   └───core
