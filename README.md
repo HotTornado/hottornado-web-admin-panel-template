@@ -5,7 +5,7 @@
 </p>
 <hr>
 <h2>File Hierarchy</h2>
-
+<code>
 <ul>
     <li>
         WebsiteTemplate
@@ -13,7 +13,6 @@
             <li>
                 admin
             </li>
-
             <li>
                 assets
                 <ul>
@@ -21,7 +20,6 @@
                     <li>images</li>
                 </ul>
             </li>
-
             <li>
                 components
                 <ul>
@@ -40,7 +38,6 @@
                     </li>
                 </ul>
             </li>
-
             <li>
                 css
                 <ul>
@@ -50,31 +47,29 @@
                 </ul>
             </li>
 
-            <li>
-                js
-                <ul>
-                    <li>script.js</li>
-                    <li>owl-carousel.js</li>
-                    <li>summernote.js</li>
-                </ul>
-            </li>
+    <li>
+        js
+        <ul>
+            <li>script.js</li>
+            <li>owl-carousel.js</li>
+            <li>summernote.js</li>
+        </ul>
+    </li>
 
+    <li>
+        node_modules
+        <ul>
             <li>
-                node_modules
+                @fancyapps
                 <ul>
                     <li>
-                        @fancyapps
+                        fancybox
                         <ul>
                             <li>
-                                fancybox
+                                dist
                                 <ul>
-                                    <li>
-                                        dist
-                                        <ul>
-                                            <li>jquery.fancybox.css</li>
-                                            <li>jquery.fancybox.js</li>
-                                        </ul>
-                                    </li>
+                                    <li>jquery.fancybox.css</li>
+                                    <li>jquery.fancybox.js</li>
                                 </ul>
                             </li>
                         </ul>
@@ -83,6 +78,8 @@
             </li>
         </ul>
     </li>
+</ul>
+</li>
 </ul>
 
 │ ├───@popperjs
