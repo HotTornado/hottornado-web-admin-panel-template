@@ -11,7 +11,6 @@
         $space = "";
     }
 ?>
-<script src="<?=$space?>js/script.js"></script>
 <script src="<?=$space?>node_modules/@popperjs/core/dist/umd/popper.js"></script>
 <script src="<?=$space?>node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script src="<?=$space?>node_modules/@tabler/icons/dist/umd/tabler-icons.js"></script>
@@ -21,3 +20,5 @@
 <script src="<?=$space?>node_modules/owl.carousel/dist/owl.carousel.js"></script>
 <script src="<?=$space?>node_modules/summernote/dist/summernote-bs5.js"></script>
 <script src="<?=$space?>node_modules/sweetalert2/dist/sweetalert2.js"></script>
+<script src="<?=$space?>js/script.js"></script>
+<script src="<?=$space?>js/summernote.js"></script>

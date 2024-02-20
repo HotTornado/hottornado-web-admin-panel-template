@@ -24,6 +24,6 @@
 <link rel="stylesheet" href="<?=$space?>node_modules/material-symbols/index.css">
 <link rel="stylesheet" href="<?=$space?>node_modules/owl.carousel/dist/assets/owl.carousel.css">
 <link rel="stylesheet" href="<?=$space?>node_modules/owl.carousel/dist/assets/owl.theme.default.css">
-<link rel="stylesheet" href="<?=$space?>node_modules/summernote/dist/summernote-bs5.css">
 <link rel="stylesheet" href="<?=$space?>node_modules/sweetalert2/dist/sweetalert2.css">
+<link rel="stylesheet" href="<?=$space?>node_modules/summernote/dist/summernote-bs5.css">
 <link rel="website icon" href="<?=$space?>assets/icons/HotTornadoLogoIconBlack.ico">
