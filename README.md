@@ -5,6 +5,7 @@
 </p>
 <hr>
 <h2>File Hierarchy</h2>
+
 <ul>
     <li>
         WebsiteTemplate
@@ -12,6 +13,7 @@
             <li>
                 admin
             </li>
+
             <li>
                 assets
                 <ul>
@@ -19,6 +21,7 @@
                     <li>images</li>
                 </ul>
             </li>
+
             <li>
                 components
                 <ul>
@@ -37,6 +40,7 @@
                     </li>
                 </ul>
             </li>
+
             <li>
                 css
                 <ul>
@@ -45,6 +49,7 @@
                     <li>theme.css</li>
                 </ul>
             </li>
+
             <li>
                 js
                 <ul>
@@ -53,63 +58,138 @@
                     <li>summernote.js</li>
                 </ul>
             </li>
+
             <li>
-                @fancyapps
+                node_modules
                 <ul>
                     <li>
-                        fancybox
+                        @fancyapps
                         <ul>
                             <li>
-                                dist
+                                fancybox
                                 <ul>
-                                    <li>jquery.fancybox.css</li>
-                                    <li>jquery.fancybox.js</li>
+                                    <li>
+                                        dist
+                                        <ul>
+                                            <li>jquery.fancybox.css</li>
+                                            <li>jquery.fancybox.js</li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </li>
+
+            <li>
+                @popperjs
+                <ul>
+                    <li>
+                        core
+                        <ul>
+                            <li>
+                                dist
+                                <ul>
+                                    <li>
+                                        umd
+                                        <ul>
+                                            <li>popper.js</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                @tabler
+                <ul>
+                    <li>
+                        icons
+                        <ul>
+                            <li>
+                                dist
+                                <ul>
+                                    <li>
+                                        umd
+                                        <ul>
+                                            <li>tabler-icons.js</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                icons-webfont
+                <ul>
+                    <li>tabler-icons.css</li>
+                </ul>
+            </li>
+
+            <li>
+                animate.css
+                <ul>
+                    <li>animate.css</li>
+                </ul>
+            </li>
+
+            <li>
+                bootstrap
+                <ul>
+                    <li>
+                        dist
+                        <ul>
+                            <li>
+                                css
+                                <ul>
+                                    <li>bootstrap.css</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                js
+                                <ul>
+                                    <li>bootstrap.js</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                jquery
+                <ul>
+                    <li>
+                        dist
+                        <ul>
+                            <li>jquery.js</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
         </ul>
     </li>
 </ul>
-</li>
-</ul>
 
-│ ├───@popperjs
-│ │ └───core
-│ │ └───dist
-│ │ └───umd
-│ │ └───popper.js
-│ ├───@tabler
-│ │ ├───icons
-│ │ │ └───dist
-│ │ │ └───umd
-│ │ │ └───tabler-icons.js
-│ │ │
-│ │ └───icons-webfont
-│ │ └───tabler-icons.css
-│ │
-│ ├───animate.css
-│ │ └───animate.css
-│ │
-│ ├───bootstrap
-│ │ └───dist
-│ │ ├───css
-│ │ │ └───bootstrap.css
-│ │ └───js
-│ │ └───bootstrap.js
-│ │
-│ ├───jquery
-│ │ └───dist
-│ │ └───jquery.js
-│ │
+
+
+
 │ ├───jquery-ui
-│ │ └───dist
-│ │ ├───jquery-ui.js
-│ │ └───themes
-│ │ └───base
-│ │ └───jquery-ui.css
+│ │     └───dist
+│ │         ├───jquery-ui.js
+│ │             └───themes
+│ │                 └───base
+│ │             └───jquery-ui.css
 │ │
 │ ├───material-symbols
 │ │ └───index.css
